@@ -2,11 +2,9 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
+      value: Ajeeta Asthana
     - name: Languages
-      value: English, German
+      value: English, 
 
 - title: Education
   type: time_table
@@ -82,16 +80,16 @@
 - title: Academic Interests
   type: nested_list
   contents:
-    - title: Topic 1.
+    - title: Distributed Systems.
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
+        - RAFT Consensus Algorithm.
+        - PAXOS
+    - title: Microservices.
       items:
-        - Description 1.
-        - Description 2.
+        - Decomposition.
+        - Software Migration
 
 - title: Other Interests
-  type: list
+  type: Hobbies
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Running, Reading, etc.
